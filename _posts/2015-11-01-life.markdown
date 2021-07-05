@@ -1,0 +1,119 @@
+---
+layout: post
+title:  "Life is"
+date:   2015-11-01 15:37:16 -0400
+categories: jekyll update
+---
+<html>
+
+<head>
+	<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
+	<style>
+		#geek {
+			padding: 65px 0;
+		}
+	</style>
+
+	<script>
+		$(document).ready(function() {
+			$(document).keydown(function(event) {
+
+				// 86 is the keycode of v
+				if (event.ctrlKey == true && (event.which == '86')) {
+					$("#d2").text('paste. not allowed!');
+					event.preventDefault();
+				}
+
+				// 88 is the keycode of x
+				if (event.ctrlKey == true && (event.which == '88')) {
+					$("#d2").text('cut. not allowed!');
+					event.preventDefault();
+				}
+
+				// 67 is the keycode of c
+				if (event.ctrlKey == true && (event.which == '67')) {
+					$("#d2").text('copy. not allowed!');
+					event.preventDefault();
+				}
+
+				// Above all three can be combined into one, above is
+				// executed separately for understanding purposes.
+				/* if (event.ctrlKey==true && (event.which == '86'
+				|| event.which == '67' || event.which == '88')) {
+					alert('cut. copy. paste. not allowed!');
+					event.preventDefault();
+				} */
+			});
+			$('textarea').mousedown(function(e) {
+				if (e.button == 2) {
+					alert('right-click is disabled!');
+					e.preventDefault();
+				}
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<center>
+			<p id="d1" style="font-weight:bolder">
+				The below text area won't allow any cut, copy,
+				paste and right-click operations.
+			</p>
+			<p id="d2" style="color:red"></p>
+
+	</center>
+</body>
+
+<p> Une vie qui s'en vient <br>
+témoigne de la beauté de la vie <br>
+Un nouveau-né qui rit <br>
+montre l'innocence de la vie <br>
+Un bébé qui observe la nature <br>
+s'émerveille de la vie <br>
+Un enfant qui meurt <br>
+montre la fragilité de la vie <br> </p>
+
+<p>Une fleur qui éclot  <br>
+montre la beauté de la vie <br>
+Son butinement par les abeilles <br>
+témoigne de l'importance de chaque être <br>
+Sa fanaison à la tombée du jour <br>
+montre que toute chose a une fin <br></p>
+
+<p> Un petit chiot qui naît <br>
+montre la beauté de la vie <br>
+Son jappement pour se défendre <br>
+montre le fait d'être livré à nous même <br> </p>
+
+<p> Un feu d'artifice qui éclate <br>
+témoigne des couleurs de la vie auxquelles nous devons faire face <br></p>
+
+<img src="/assets/img/life.jpg"/> <br>
+
+
+<p>A life that is coming<br>
+testifies to the beauty of life<br>
+A newborn baby laughing<br>
+shows the innocence of life<br>
+A baby observing nature<br>
+marvels at life<br>
+A child dying<br>
+shows the fragility of life<br></p>
+
+<p>A flower blooming<br>
+shows the beauty of life<br>
+Its gathering by the bees<br>
+shows the importance of each being<br>
+Its fading at dusk<br>
+shows that everything has an end<br></p>
+
+<p>A little puppy being born<br>
+shows the beauty of life<br>
+His yapping to defend himself<br>
+shows the fact of being left to ourselves<br></p>
+
+<p>A firework that explodes<br>
+shows the colors of life we have to face<br></p>
