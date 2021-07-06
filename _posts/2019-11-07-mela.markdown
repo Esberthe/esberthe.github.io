@@ -1,0 +1,131 @@
+---
+layout: post
+title:  "Mélanie"
+date:   2019-11-07 15:37:16 -0400
+categories: jekyll update
+---
+<html>
+
+<head>
+	<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
+	<style>
+		#geek {
+			padding: 65px 0;
+		}
+	</style>
+
+	<script>
+		$(document).ready(function() {
+			$(document).keydown(function(event) {
+
+				// 86 is the keycode of v
+				if (event.ctrlKey == true && (event.which == '86')) {
+					$("#d2").text('paste. not allowed!');
+					event.preventDefault();
+				}
+
+				// 88 is the keycode of x
+				if (event.ctrlKey == true && (event.which == '88')) {
+					$("#d2").text('cut. not allowed!');
+					event.preventDefault();
+				}
+
+				// 67 is the keycode of c
+				if (event.ctrlKey == true && (event.which == '67')) {
+					$("#d2").text('copy. not allowed!');
+					event.preventDefault();
+				}
+
+				// Above all three can be combined into one, above is
+				// executed separately for understanding purposes.
+				/* if (event.ctrlKey==true && (event.which == '86'
+				|| event.which == '67' || event.which == '88')) {
+					alert('cut. copy. paste. not allowed!');
+					event.preventDefault();
+				} */
+			});
+			$('textarea').mousedown(function(e) {
+				if (e.button == 2) {
+					alert('right-click is disabled!');
+					e.preventDefault();
+				}
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<center>
+			<p id="d1" style="font-weight:bolder">
+				The below text area won't allow any cut, copy,
+				paste and right-click operations.
+			</p>
+			<p id="d2" style="color:red"></p>
+
+	</center>
+</body>
+
+
+<p> Mélanie est l'une de ces beautés dont il est impossible de détourner les regards tant elle est charmante. Elle était ma Choucoune. Sa peau était d'une couleur caïmite, douce et n'avait aucun défaut, son visage rond et ses joues boursouflés lui donnait un air enfantin, ses cils si longs était magnifique, nul besoin d'utiliser de mascara pour les allonger de toute façon ma chère et tendre n'était pas très friands de maquillage. Elle n'en avait nullement besoin vu sa beauté, son seul accessoire cosmétique est le rouge à lèvres. Le jour où je lui ai demandé pourquoi ne sortait-elle pas sans son rouge à lèvres tandis qu'elle dit détester le maquillage, elle me répondit : << Je n'aime pas le maquillage, je trouve qu'on agresse la peau inutilement et cela dont le but final est de porter un masque et de cacher un visage si beau au naturel, j'adore le rouge à lèvres car le porter me donne plus de peps et une confiance inébranlable, je me sens prête à tout déchirer d'autant plus que Coco Chanel eut à dire "Si vous êtes triste mettez du rouge à lèvres et attaquer." Et tu sais bien que le rouge à lèvres me va à merveille.>> </p>
+
+<p> Elle était consciente de son charme et cela me plaisait, j'adorais voir ses fesses rebondir quand elle déambulait, j'apercevais ses seins fermes et ronds lorsqu'elle portait un décolleté.<br>
+
+Nous nous étions rencontrés dans la bibliothèque du campus, j'avais pris le dernier exemplaire d'un livre de droit pour préparer mon intra en droit des affaires et elle m'a intercepté à la sortie de la biblio en me disant : <br>
+
+- Bonsoir, dit-elle <br>
+
+- Bonsoir, lui répondis-je d'un ton pressé <br>
+
+- Tu viens de prendre le dernier exemplaire de ce livre, dit-elle en me désignant le livre du doigt, j'aimerais savoir si tu pourrais me l'emprunter j'ai un devoir de recherche à faire et c'est l'un des livres à consulter <br>
+
+
+- Je te propose qu'on le lise ensemble parce que je ne pourrai pas te laisser, il compte pour une bonne partie de mon partiel <br>
+
+
+- Oui, je suis d'accord, où est-ce qu'on se retrouve pour le lire? <br>
+
+
+- Rejoins-moi à la cafétéria lors de la prochaine pause <br>
+
+
+- D'accord, oh j'allais oublier je m'appelle Mélanie Robert <br>
+
+
+- Édouard Blanchard dis-je en lui serrant la main. </p>
+
+
+<p>Depuis lors nous nous retrouvions à chaque pause et nous nous attendions l'un l'autre de manière alterné car nous ne suivions pas le même cursus, elle était en diplomatie et moi en sciences juridiques.</p>
+
+<p> Aujourd'hui marque deux ans depuis que nous sommes en couple. Je tiens à rendre mémorable cette journée, car au bout de trois ans depuis notre première rencontre. Chaque jour qui passe me permet d'aimer un peu plus cette jeune femme charmante, talentueuse et pleine d'esprit et je suis sûr de vouloir passer le reste de mes jours à ses côtés.</p>
+
+<p>Au programme j'avais prévu dès la matinée de l'emmener à ce salon de beauté qu'elle voulait tant essayer et qui avait gagné en notoriété du jour au lendemain grâce à leurs innovations en matière de soins. Je l'ai déposé au salon et "quelle" ne fut sa surprise de m'entendre dire à la réceptionniste que j'avais réservé pour la totale. Après lui avoir fait la bise, je me rends au supermarché pour finaliser les derniers petits détails car ma mère tenait à lui préparer un dîner digne de ce nom.</p>
+
+<p>Depuis la mort de mon père, ma mère a toujours abordé une mine renfrognée, triste et j'avais beaucoup de peine pour elle car auparavant elle était toujours souriante, pleine de vie. Elle n'a jamais rencontré Mélanie, quand je lui ai demandé conseil le mois dernier pour la surprise que je voulais faire à ma dulcinée. J'ai vu s'illuminer son visage, elle était toute excitée à l'idée de rencontrer sa probable future belle-fille. C'était la première fois depuis longtemps que j'ai vu un vrai sourire sur les lèvres de ma mère. Mélanie n'avait pas encore rencontrer ma mère que son charme avait déjà opéré sur elle.</p>
+
+<p>Dans l'après-midi, après avoir récupéré Mélanie au salon je l'ai raccompagné chez elle pour qu'elle puisse se vêtir pour notre soirée. Sur son lit, l'attendait la belle robe qu'elle n'arrêtait pas de regarder avec désir "dans les vitrines" de ce magasin devant lequel nous passions quand je la raccompagnais chez elle. Après une demi-heure d'attente et de papotage avec sa mère, elle sortait de la chambre plus belle que jamais. Nous étions tous deux éblouis et baba.<br>
+
+Je lui ouvris la portière de la voiture et en mon for intérieur je me disais :"Mélanie tu n'es pas prête pour cette surprise qui aura l'effet d'une bombe."</p>
+
+<p>🎶I'll say will you marry me, I swear that I will mean it, I'll say will you marry me🎶🎶<br>
+
+Cette chanson de Jason Derulo emplissait l'enceinte de la voiture, nous étions tous deux plongé dans nos pensées. J'étais sur un petit nuage car sa maman m'avait accordé sa bénédiction quand je lui ai demandé la main de sa fille.<br>
+
+
+J'interrompis le silence pour lui dire :<br>
+
+
+- Un jour je te poserai cette question et tu n'auras d'autre choix que de me dire OUI.<br>
+
+
+Elle sourit et me prit par la main<br>
+
+- On est arrivé !!!! , lui dis-je tout excité.</p>
+
+
+<p>Je lui ouvris la portière et lui tendis la main pour l'aider à descendre et main dans la main nous nous dirigeons vers ma mère. En voyant Mélanie, elle éclata en sanglots, j'ai mis cela sur le compte de l'émotion, ma mère étant quelqu'un de très sensible. Mélanie la prit dans ses bras pour la réconforter. C'était le bon moment pour faire ma demande.  Elles étaient toutes les deux enlacées et Mélanie me donnait dos. Je posai un genou à terre et pris le coffret dans ma poche :<br>
+
+- Mélanie, tu es ma reine, la femme qui me complète alors je me mets à genoux devant toi aujourd'hui pour te demander de faire de moi ton roi en devenant officiellement ma reine, veux-tu m'épouser ? <br>
+
+ Ma mère me semblait au bord de la crise d'apoplexie. D'un cri strident comme résultant d'un effort surhumain. Elle s'écria :" C'est ta sœur !!! Mélanie est ta sœur !"<br></p>

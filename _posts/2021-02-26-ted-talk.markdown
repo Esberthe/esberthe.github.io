@@ -1,0 +1,121 @@
+---
+layout: post
+title:  "L'art de s'en foutre"
+date:   2021-02-26 15:37:16 -0400
+categories: jekyll update
+---
+<html>
+
+<head>
+	<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
+	<style>
+		#geek {
+			padding: 65px 0;
+		}
+	</style>
+
+	<script>
+		$(document).ready(function() {
+			$(document).keydown(function(event) {
+
+				// 86 is the keycode of v
+				if (event.ctrlKey == true && (event.which == '86')) {
+					$("#d2").text('paste. not allowed!');
+					event.preventDefault();
+				}
+
+				// 88 is the keycode of x
+				if (event.ctrlKey == true && (event.which == '88')) {
+					$("#d2").text('cut. not allowed!');
+					event.preventDefault();
+				}
+
+				// 67 is the keycode of c
+				if (event.ctrlKey == true && (event.which == '67')) {
+					$("#d2").text('copy. not allowed!');
+					event.preventDefault();
+				}
+
+				// Above all three can be combined into one, above is
+				// executed separately for understanding purposes.
+				/* if (event.ctrlKey==true && (event.which == '86'
+				|| event.which == '67' || event.which == '88')) {
+					alert('cut. copy. paste. not allowed!');
+					event.preventDefault();
+				} */
+			});
+			$('textarea').mousedown(function(e) {
+				if (e.button == 2) {
+					alert('right-click is disabled!');
+					e.preventDefault();
+				}
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<center>
+			<p id="d1" style="font-weight:bolder">
+				The below text area won't allow any cut, copy,
+				paste and right-click operations.
+			</p>
+			<p id="d2" style="color:red"></p>
+
+	</center>
+</body>
+
+<body>
+    <h2>Koman pou w ba bay pesonn regle anyen pou ou</h2>
+    <p>Yon bon maten, m leve <br>
+  M pran desizyon sa ki chanje lavi m <br>
+  Pa bay moun regle anyn pou mwen <br>
+  Yon moun fè yon vye komantè sou vant mwen <br>
+  M pa fòse rantre vant mwen jan  m te konn abitye fè l <br>
+  M souri ba li epi mwen di l mèsi <br>
+  L ale tou wont paske m pa t reponn li jan l ta vle a <br>
+  Tout moun ap twaze jip kout mwen an <br>
+  Pou m agase yo m t ap brase senti m <br>
+  M te resi fyè pil sikatris mwen yo, pil boul grès <br>
+  M te toujou ap kache yo anba pil rad pou moun pa wè yo <br>
+  Pou yon fwa m pa t bay pèsonn regle anyen pou mwen <br>
+  Sa yo panse de mwen pa regade m <br>
+  M te pase yon bon jounen paske m pa t bay pèsonn regle anyen pou mwen <br></p>
+
+    <h2>L'art de s'en foutre</h2>
+    <p>Un matin je me suis levé <br>
+  J'ai pris cette décision qui a changé ma vie <br>
+  S’en foutre royalement <br>
+  Quelqu'un a fait un commentaire sur ma bedaine <br>
+  Je n'ai pas rentré mon ventre comme je le faisais d'habitude <br>
+  J'ai souri poliment et j'ai dit merci <br>
+  Déçu que je n’aie pas réagi comme il le voulait, il s'en est allé tout honteux <br>
+  Les regards désapprobateurs pointaient ma jupe courte <br>
+  Je me déhanchais pour les narguer <br>
+  J’ai porté fièrement mes cicatrices mes bourrelets, ma cellulite <br>
+   Que d'habitude je cachais sous des tonnes de vêtements <br>
+  Pour une fois je me foutais de ce qu’ils pouvaient bien penser de moi <br>
+  J’ai passé une excellente journée car j'avais décidé de m'en foutre <br></p>
+
+	![curves](/assets/img/innocente.png)
+
+    <h2>How to not giving a danm</h2>
+    <p>One morning I got up <br>
+I took a decision that changed my life <br>
+not giving a damn <br>
+Someone made a comment about my belly <br>
+I didn't pull my belly in like I used to <br>
+I smiled politely and said thank you <br>
+Disappointed that I didn't react the way he wanted me to, he walked away in shame <br>
+The disapproving looks pointed to my short skirt <br>
+I wiggled to taunt them <br>
+I proudly wore my scars, my bulges, my cellulite <br>
+ that I usually hid under tons of clothes <br>
+For once I didn't care what they thought of me <br>
+I had a great day because I decided not to care <br></p>
+
+
+</body>
+</html>

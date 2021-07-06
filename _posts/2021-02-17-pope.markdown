@@ -1,0 +1,89 @@
+---
+layout: post
+title:  "Pope twèl"
+date:   2021-02-17 15:37:16 -0400
+categories: jekyll update
+---
+<html>
+
+<head>
+	<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
+	<style>
+		#geek {
+			padding: 65px 0;
+		}
+	</style>
+
+	<script>
+		$(document).ready(function() {
+			$(document).keydown(function(event) {
+
+				// 86 is the keycode of v
+				if (event.ctrlKey == true && (event.which == '86')) {
+					$("#d2").text('paste. not allowed!');
+					event.preventDefault();
+				}
+
+				// 88 is the keycode of x
+				if (event.ctrlKey == true && (event.which == '88')) {
+					$("#d2").text('cut. not allowed!');
+					event.preventDefault();
+				}
+
+				// 67 is the keycode of c
+				if (event.ctrlKey == true && (event.which == '67')) {
+					$("#d2").text('copy. not allowed!');
+					event.preventDefault();
+				}
+
+				// Above all three can be combined into one, above is
+				// executed separately for understanding purposes.
+				/* if (event.ctrlKey==true && (event.which == '86'
+				|| event.which == '67' || event.which == '88')) {
+					alert('cut. copy. paste. not allowed!');
+					event.preventDefault();
+				} */
+			});
+			$('textarea').mousedown(function(e) {
+				if (e.button == 2) {
+					alert('right-click is disabled!');
+					e.preventDefault();
+				}
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<center>
+			<p id="d1" style="font-weight:bolder">
+				The below text area won't allow any cut, copy,
+				paste and right-click operations.
+			</p>
+			<p id="d2" style="color:red"></p>
+
+	</center>
+</body>
+
+
+<p> Mewi, di m sa pou m fè <br>
+Di m ki rad pou m mete <br>
+Wi lwijanboje, ti jip sa twò kout <br>
+Dekolte sa fè tout tete m parèt vre <br>
+Kòman fè m pa t wè sa? <br></p>
+<p> Figi m mare two di <br>
+Mewi,fòk m te fè ti souri pou ou <br>
+Lè w ap rele m tankou ti chen "psit psitt" nan lari a <br>
+Fòk m t vire ba w nimewo m, epi bay de blag ak ou vre <br>
+Poukisa sa pa t pase nan tèt mwen? <br> </p>
+
+<p>Ou gen rezon m pa t dwe di w non <br>
+Paske m pa gen dwa lapawòl <br>
+Se ou ki pou deside pou mwen <br>
+Se ou ki konn sa m vle <br>
+Koman fè m pa reyalize sa? <br> </p>
+
+<p> Mewi mouche pran m pou pope twèl <br>
+Paske nan je w m dwe yon ti maryonèt nan men w <br> </p>
