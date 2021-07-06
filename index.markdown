@@ -4,3 +4,4 @@
 
 layout: home
 ---
+![Esberthe Thinking](/assets/img/Couv.png)

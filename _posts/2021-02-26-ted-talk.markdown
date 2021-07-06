@@ -99,8 +99,6 @@ categories: jekyll update
   Pour une fois je me foutais de ce qu’ils pouvaient bien penser de moi <br>
   J’ai passé une excellente journée car j'avais décidé de m'en foutre <br></p>
 
-	![curves](/assets/img/innocente.png)
-
     <h2>How to not giving a danm</h2>
     <p>One morning I got up <br>
 I took a decision that changed my life <br>
