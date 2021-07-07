@@ -1,7 +1,7 @@
 ---
 layout: post
 image: <img src="/assets/img/Couv.png"/>
-title:  "Innoncente"
+title:  "Innocente"
 date:   2021-04-28 15:37:16 -0400
 categories: jekyll update
 ---
