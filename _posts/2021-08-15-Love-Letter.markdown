@@ -65,4 +65,4 @@ categories: jekyll update
 	</center>
 </body>
 <p> <img src="/assets/img/Love_Letter.png"/> </p>
-![love letter](../assets/img/Love_l.pdf)
+![love letter](/assets/img/Love_l.pdf)
