@@ -59,10 +59,10 @@ categories: jekyll update
 <body>
 	<center>
 			
-			</p>
+			
 			<p id="d2" style="color:red"></p>
 
 	</center>
 </body>
 <p> <img src="/assets/img/Love_Letter.png"/> </p>
-![love letter](assets/img/Love_Letter.png)
+![love letter](../assets/img/Love_Letter.png)
