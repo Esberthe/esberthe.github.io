@@ -1,21 +1,69 @@
-Thinking that it will be us <br>
-Just the both of us <br>
-I couldn’t be more happy <br>
-Knowing that I will do that with my best friend <br> 
-And to think that before I didn't appreciate you at your true value <br>
-and to say that I didn't take care of you as I should <br>
-and to say that I gave to others more than to you <br>
-you were not my priority <br>
-Now I look at you and I'm proud <br>
-we come from afar <br>
-you didn't let me down <br>
-You believed in me when no one else did <br>
-When no one else was there you were always there <br>
-Even if it was to scoop me up with a spoon <br>
- or to give me tough love <br>
-you are the only one I can count on <br>
-they come and go <br>
-but only you remain <br>
-and when I look at you<br>
- I'm happy to do the adventure with you <br>
-I couldn't have fallen better<br>
+---
+layout: post
+title:  "Love Letter "
+date:   2021-08-15 15:37:16 -0400
+categories: jekyll update
+---
+<html>
+
+<head>
+	<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
+	<style>
+		#geek {
+			padding: 65px 0;
+		}
+	</style>
+
+	<script>
+		$(document).ready(function() {
+			$(document).keydown(function(event) {
+
+				// 86 is the keycode of v
+				if (event.ctrlKey == true && (event.which == '86')) {
+					$("#d2").text('paste. not allowed!');
+					event.preventDefault();
+				}
+
+				// 88 is the keycode of x
+				if (event.ctrlKey == true && (event.which == '88')) {
+					$("#d2").text('cut. not allowed!');
+					event.preventDefault();
+				}
+
+				// 67 is the keycode of c
+				if (event.ctrlKey == true && (event.which == '67')) {
+					$("#d2").text('copy. not allowed!');
+					event.preventDefault();
+				}
+
+				// Above all three can be combined into one, above is
+				// executed separately for understanding purposes.
+				/* if (event.ctrlKey==true && (event.which == '86'
+				|| event.which == '67' || event.which == '88')) {
+					alert('cut. copy. paste. not allowed!');
+					event.preventDefault();
+				} */
+			});
+			$('textarea').mousedown(function(e) {
+				if (e.button == 2) {
+					alert('right-click is disabled!');
+					e.preventDefault();
+				}
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<center>
+			<p id="d1" style="font-weight:bolder">
+				The below text area won't allow any cut, copy,
+				paste and right-click operations.
+			</p>
+			<p id="d2" style="color:red"></p>
+
+	</center>
+</body>
+<p> <img src="/assets/img/saw-wè.jpg"/> </p>
