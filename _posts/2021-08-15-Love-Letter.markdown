@@ -65,5 +65,4 @@ categories: jekyll update
 	</center>
 </body>
 <p> <img src="https://export-download.canva.com/Ts_II/DAEnaOTs_II/53/6566223125.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20210824%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210824T234217Z&X-Amz-Expires=11765&X-Amz-Signature=08720e36c52fcdca4e944b9260c48aa7fce75b26c91b2b9e7f9e319bba56a928&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Love_Letter%2520.gif&response-expires=Wed%2C%2025%20Aug%202021%2002%3A58%3A22%20GMT"/>
-	<img src="/assets/img/Love_Letter.png"> </p>
-![love letter](./assets/img/Love_l.pdf){width=75%}
+	
