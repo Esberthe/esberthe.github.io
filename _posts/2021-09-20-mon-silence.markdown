@@ -66,4 +66,4 @@ categories: jekyll update
 </body>
 <img src="/assets/img/silence.png"/> <br>
 
-<img src="/assets/img/silenceself.png"/>
+
