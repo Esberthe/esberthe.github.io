@@ -63,7 +63,7 @@ categories: jekyll update
 			</p>
 			<p id="d2" style="color:red"></p>
 
-<img src="/assets/img/Mancate  Blog Banner.png"/> <br>
+		<p> <img src="/assets/img/Mancate  Blog Banner.png"/> </p>
 
 
 It was that fleeting hour of day when the moon and sun are high and bright at the same time. <br>
