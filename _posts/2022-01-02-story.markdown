@@ -57,10 +57,7 @@ categories: jekyll update
 </head>
 
 <body>
-	<center>
-			<p id="d1" style="font-weight:bolder">
-				
-			</p>
+	
 			<p id="d2" style="color:red"></p>
 
 		<p> <img src="/assets/img/Mancate  Blog Banner.png"/> </p>
