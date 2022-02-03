@@ -59,8 +59,7 @@ categories: jekyll update
 <body>
 	<center>
 			<p id="d1" style="font-weight:bolder">
-				The below text area won't allow any cut, copy,
-				paste and right-click operations.
+				
 			</p>
 			<p id="d2" style="color:red"></p>
 
