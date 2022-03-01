@@ -1,3 +1,69 @@
+
+---
+layout: post
+title:   "C'est lui"
+date:   2022-02-28 19:37:16 -0400
+categories: jekyll update
+---
+<html>
+
+<head>
+	<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
+	<style>
+		#geek {
+			padding: 65px 0;
+		}
+	</style>
+
+	<script>
+		$(document).ready(function() {
+			$(document).keydown(function(event) {
+
+				// 86 is the keycode of v
+				if (event.ctrlKey == true && (event.which == '86')) {
+					$("#d2").text('paste. not allowed!');
+					event.preventDefault();
+				}
+
+				// 88 is the keycode of x
+				if (event.ctrlKey == true && (event.which == '88')) {
+					$("#d2").text('cut. not allowed!');
+					event.preventDefault();
+				}
+
+				// 67 is the keycode of c
+				if (event.ctrlKey == true && (event.which == '67')) {
+					$("#d2").text('copy. not allowed!');
+					event.preventDefault();
+				}
+
+				// Above all three can be combined into one, above is
+				// executed separately for understanding purposes.
+				/* if (event.ctrlKey==true && (event.which == '86'
+				|| event.which == '67' || event.which == '88')) {
+					alert('cut. copy. paste. not allowed!');
+					event.preventDefault();
+				} */
+			});
+			$('textarea').mousedown(function(e) {
+				if (e.button == 2) {
+					alert('right-click is disabled!');
+					e.preventDefault();
+				}
+			});
+		});
+	</script>
+</head>
+
+<body>
+	
+			<p id="d2" style="color:red"></p>
+
+		<p> <img src="/assets/img/Mancate  Blog Banner.png"/> </p>
+
+
 <p>Cela a commencé par une dispute. Rien de bien méchant dans le fond, du moins c’est ce qu’elle croyait.<br> 
 Il s’agitait et s’énervait de plus en plus le ton montait. Ils étaient dans cette allée pas très fréquenté menant à ces immeubles assez modernes. <br>
 Par cet après-midi d’hiver assez frisquet, où tout le monde préférerait se blottir dans leurs draps bien emmitouflés que de s’aventurer dehors.<br>
@@ -28,3 +94,5 @@ Il quittait le complexe d’immeubles en trombe.<br>  </p>
 <p>Je revenais de ma marche santé, ordre du médecin, quand je l’ai croisé à l’entrée du complexe où j’habitais depuis bientôt cinq ans.<br>
 Quand mes yeux ont croisé les siens, j’ai tout de suite su qu’il avait commis l’impardonnable. <br>
 Il est un tueur et j’allais le prouver quoiqu’il m’en coûte.<br> </p>
+  </body>
+</html>
