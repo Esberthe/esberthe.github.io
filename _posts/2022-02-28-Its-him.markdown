@@ -98,5 +98,5 @@ Il quittait le complexe d’immeubles en trombe.<br>  </p>
 <p>Je revenais de ma marche santé, ordre du médecin, quand je l’ai croisé à l’entrée du complexe où j’habitais depuis bientôt cinq ans.<br>
 Quand mes yeux ont croisé les siens, j’ai tout de suite su qu’il avait commis l’impardonnable. <br>
 Il est un tueur et j’allais le prouver quoiqu’il m’en coûte.<br> </p>
-  </body>
+</body>
 </html>
