@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-<i> The english message will follow </i>
+<i> The english message will follow </i><br>
 Il est toujours difficile pour quelqu'un de se décrire, car que nous le voulions ou non, cela servira contre nous. <br>
 Faut-il se décrire en ne décrivant que ses qualités? <br>
 Au risque que cela soit interprété comme de la fausse modestie. <br>
