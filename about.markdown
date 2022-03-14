@@ -22,4 +22,4 @@ And this will be interpreted as a lack of self-confidence. <br>
 No matter how I introduce myself to you, you will still judge me and good for you.<br> 
 
 <p> I am Esberthe Elisée, an imperfect human being who gives her all in everything she does. I like to put what I think on paper, being an introvert I don't often find myself in the spotlight to share my opinions, but when it's time to stand up for what I believe in, I don't hesitate for a second to come out of the shadows. I usually don't publish my texts very often (at all tbh) so I finally decided to share them with you through my website.<br>
-I thank you for visiting it and feel free to slide into my dms if you have any kind comments.<br></p>
+I thank you for visiting it and feel free to slide into my dms if you have any kind comments.☺ <br></p>
