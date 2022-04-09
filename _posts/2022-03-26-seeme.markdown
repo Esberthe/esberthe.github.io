@@ -1,5 +1,69 @@
+---
+layout: post
+title:   "J'ai de la valeur"
+date:   2022-03-26 19:37:16 -0400
+categories: jekyll update
+---
 <html>
+
+<head>
+	<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
+	<style>
+		#geek {
+			padding: 65px 0;
+		}
+	</style>
+
+	<script>
+		$(document).ready(function() {
+			$(document).keydown(function(event) {
+
+				// 86 is the keycode of v
+				if (event.ctrlKey == true && (event.which == '86')) {
+					$("#d2").text('paste. not allowed!');
+					event.preventDefault();
+				}
+
+				// 88 is the keycode of x
+				if (event.ctrlKey == true && (event.which == '88')) {
+					$("#d2").text('cut. not allowed!');
+					event.preventDefault();
+				}
+
+				// 67 is the keycode of c
+				if (event.ctrlKey == true && (event.which == '67')) {
+					$("#d2").text('copy. not allowed!');
+					event.preventDefault();
+				}
+
+				// Above all three can be combined into one, above is
+				// executed separately for understanding purposes.
+				/* if (event.ctrlKey==true && (event.which == '86'
+				|| event.which == '67' || event.which == '88')) {
+					alert('cut. copy. paste. not allowed!');
+					event.preventDefault();
+				} */
+			});
+			$('textarea').mousedown(function(e) {
+				if (e.button == 2) {
+					alert('right-click is disabled!');
+					e.preventDefault();
+				}
+			});
+		});
+	</script>
+</head>
+
 <body>
+	
+			<p id="d2" style="color:red"></p>
+
+		<p> <img src="/assets/img/C'est lui.png"/> </p>
+
+
+
 <style>
 text-align:justify 
 text-justify:inter-word
@@ -13,26 +77,27 @@ Petite, ma maman me berçait de ces tendres mots, mais à l’école, on m’a f
 Elle devait me cacher la vérité. Après tout, elle est ma maman, elle ne voulait pas me faire de mal. 
 Nous te devons la vérité, prétendaient-ils. Nous devons réparer les torts qui t’ont été faits en te racontant de sornette pareille.</p>
 
-Prends un miroir et tu verras. Regarde donc ta peau, si peu raffinée, si noire, si laide. Regarde ton nez si plat, si gros. 
+<p>Prends un miroir et tu verras. Regarde donc ta peau, si peu raffinée, si noire, si laide. Regarde ton nez si plat, si gros. 
 Tu nous prends tout l’oxygène.
 Regarde tes lèvres si grosses, si pulpeuses. Que dire de tes cheveux si raides, si courts, si négligées. 
 Tes hanches sont trop imposantes. Tes seins sont trop volumineux. 
-Tu es trop toi et pas assez comme nous. Tu ne coches pas les cases, tu ne rentres pas dans la boite.
-D’autant plus, tu ne vois pas tes congénères dans nos séries, films si ce n’est que pour être l’opposant que tout le monde finira par détester.
+Tu es trop toi et pas assez comme nous. Tu ne coches pas les cases, tu ne rentres pas dans la boite.</p>
+  
+<p>D’autant plus, tu ne vois pas tes congénères dans nos séries, films si ce n’est que pour être l’opposant que tout le monde finira par détester.
 Tu n’es célèbre que pour être la femme en colère, amère qu’on ne comprend pas. 
 La femme hostile, susceptible avec laquelle les pincettes sont de rigueur si tu veux la tenir en laisse. 
 Les couvertures de magazines boudent tes semblables.
 Les défilés de mode te méprisent, car tu ne ressembles en aucun cas à ce modèle que nous idéalisons.
-Tu n’as donc rien à faire ici. Tu es meilleure pour nettoyer derrière nous, mais en aucun cas nous ne voulons te donner du pouvoir.
-Plus tard, quand il fallait choisir une carrière, le coup de grâce m’a été porté.
+Tu n’as donc rien à faire ici. Tu es meilleure pour nettoyer derrière nous, mais en aucun cas nous ne voulons te donner du pouvoir.</p>
+<p>Plus tard, quand il fallait choisir une carrière, le coup de grâce m’a été porté.<br>
 Nous n’en avons pas fini avec toi, ont-ils ajouté. 
 Pourquoi devrions-nous te faire confiance pour bâtir notre maison, pour nous représenter, pour nous diriger. 
 Pourquoi devrais-tu avoir le même salaire que nous ? Pourquoi devrions-nous te traiter équitablement. 
-Ne te bats surtout pas pour ce que tu mérites. Suis la troupe tête baissée et ne t’avise surtout pas de te plaindre.
+Ne te bats surtout pas pour ce que tu mérites. Suis la troupe tête baissée et ne t’avise surtout pas de te plaindre.</p>
 Alors quand je te demande si je suis belle, dis-toi bien que je le suis et que je le sais.
 Je n’ai aucun doute à ce sujet. Je veux me sentir valoriser, aimer. 
 On m’a trop longtemps fait croire que j’étais laide, que je n’étais pas assez, que je n’étais pas digne d’amour.
 Avant que je ne réalise que la beauté et moi, nous ne faisions qu’un.
 J’ai dû créer ma place, car je ne rentrais nulle part. Je suis unique, parfaite, magnifique.
-Et cela m’a pris un temps fou.
+Et cela m’a pris un temps fou.<br>
 « Elle le saura aussi et n’en doutera jamais » me suis-je dit intérieurement, en caressant doucement mon gros ventre.
