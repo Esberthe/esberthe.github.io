@@ -60,7 +60,7 @@ categories: jekyll update
 	
 			<p id="d2" style="color:red"></p>
 
-		<p> <img src="/assets/img/C'est lui.png"/> </p>
+		<p> <img src="/assets/img/valued.png"/> </p>
 
 
 
