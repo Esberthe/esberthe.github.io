@@ -65,8 +65,8 @@ categories: jekyll update
 
 
 <style>
-text-align:justify 
-text-justify:inter-word
+text-align:justify; 
+
 - Suis-je belle? Lui demandais-je en me regardant dans le miroir. En effet, mon corps avait beaucoup changé depuis ma grossesse.<br>
 -Tu me poses cette question plusieurs fois dans la même journée, à croire que tu n’as aucune confiance en toi.<br>
 
