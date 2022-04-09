@@ -64,8 +64,7 @@ categories: jekyll update
 
 
 
-<style>
-text-align:justify; 
+
 
 - Suis-je belle? Lui demandais-je en me regardant dans le miroir. En effet, mon corps avait beaucoup changé depuis ma grossesse.<br>
 -Tu me poses cette question plusieurs fois dans la même journée, à croire que tu n’as aucune confiance en toi.<br>
@@ -101,6 +100,4 @@ Avant que je ne réalise que la beauté et moi, nous ne faisions qu’un.
 J’ai dû créer ma place, car je ne rentrais nulle part. Je suis unique, parfaite, magnifique.
 Et cela m’a pris un temps fou.<br>
 « Elle le saura aussi et n’en doutera jamais » me suis-je dit intérieurement, en caressant doucement mon gros ventre.
-	</style>
-	</body>	
-	</html>
+	
