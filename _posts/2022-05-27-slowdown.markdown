@@ -1,4 +1,7 @@
 
+		
+  <p> <img src="/assets/img/slow.png"/> </p>
+
 <p>Baby girl, I’m begging you <br>
 Slowdown and take a deep breath <br>
 Life is not a race<br>
