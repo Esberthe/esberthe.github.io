@@ -1,6 +1,6 @@
 ---
 layout: post
-title:   "Pain"
+title:   "I'm not accommodating pain"
 date:   2023-01-18 19:37:16 -0400
 categories: jekyll update
 ---
